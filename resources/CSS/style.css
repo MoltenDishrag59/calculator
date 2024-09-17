@@ -1,0 +1,97 @@
+.mobile {
+    display: flex;
+}
+.flexbox {display: flex;}
+
+.column { flex-direction: column;}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    height: 400;
+    width: 320;
+    background-color: #505094;
+    margin: auto;
+}
+
+#screen {
+    background-color: greenyellow;
+    width: 280;
+    height: 50;
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    background-color: darkred;
+    color: ivory;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60px;
+height: 60px;
+margin: 5px;
+display: flex;
+}
+
+#operators {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operator {
+    background-color: rgb(75, 16, 131);
+    color: ivory;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60px;
+height: 60px;
+margin: 5px;
+display: flex;
+}
+
+.clearnum {
+    background-color: rgb(0, 155, 0);
+    color: ivory;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60px;
+height: 60px;
+margin: 5px;
+display: flex;
+}
+
+body {
+    background-color: rgb(0, 42, 97);
+}
+
+h1 {
+    color: rgb(255, 136, 0);
+    text-align: center;
+}
+
+.equal {
+    background-color: firebrick;
+    color: ivory;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60px;
+height: 60px;
+margin: 5px;
+display: flex;
+}
